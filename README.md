@@ -1,4 +1,4 @@
-# <sup>^</sup>Makito<sup>^<sup><sup>← Cat ears</sup></sup></sup>
+# <sup>^</sup>Makito<sup>^</sup><sup>← Cat ears</sup></sup></sup>
 
 I'm a self-motivated developer. I love learning by doing.
 
