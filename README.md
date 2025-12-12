@@ -9,10 +9,16 @@ I work as a full-stack software engineer during the day and a curious developer 
 
 *non-exhaustive list*
 
+---
+
 ## Sponsors
 
-Thank you to all my sponsors! Every bit matters.
+<iframe src="https://github.com/sponsors/sumimakito/button" title="Sponsor sumimakito" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
 
-![Sponsors](sponsors/sponsorkit/sponsors.svg)
+Whether you simply love what I build, rely on my code for your success, or require direct consultation or priority access, choosing a sponsorship tier is the perfect way to invest in my ongoing work. But it's okay to just be friends—thank you for being part of the community!
+
+**"Thank you"** to all my sponsors! Every bit matters.
+
+![Sponsors](sponsorkit/sponsors.svg)
 
 </div>
