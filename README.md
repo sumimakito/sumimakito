@@ -9,6 +9,8 @@ I work as a full-stack software engineer during the day and a curious developer 
 
 *non-exhaustive list*
 
+</div>
+
 ---
 
 ## Sponsors
@@ -19,4 +21,3 @@ Whether you simply love what I build, rely on my code for your success, or requi
 
 ![Sponsors](sponsorkit/sponsors.svg)
 
-</div>
