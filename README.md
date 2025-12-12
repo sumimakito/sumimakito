@@ -9,4 +9,10 @@ I work as a full-stack software engineer during the day and a curious developer 
 
 *non-exhaustive list*
 
+## Sponsors
+
+Thank you to all my sponsors! Every bit matters.
+
+![Sponsors](sponsors/sponsorkit/sponsors.svg)
+
 </div>

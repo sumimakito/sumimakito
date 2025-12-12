@@ -1,0 +1,23 @@
+{
+  "name": "sponsors",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.24.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.51.2",
+    "simple-git-hooks": "^2.13.1",
+    "sponsorkit": "^17.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^6.6.1",
+    "eslint": "^9.39.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec dotenvx ext precommit"
+  }
+}

@@ -1,0 +1,10 @@
+version: '0.2'
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - dotenvx
+  - sponsorkit
+  - sumimakito
+ignoreWords: []
+import: []
