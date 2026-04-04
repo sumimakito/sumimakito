@@ -1,0 +1,45 @@
+name: Update sponsors
+
+on:
+  schedule:
+    - cron: '5 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate sponsors with SponsorKit
+        env:
+          SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
+        run: pnpm exec sponsorkit
+
+      - name: Update sponsors
+        shell: bash
+        run: |
+          git config user.name "sumimakito"
+          git config user.email "sumimakito@users.noreply.github.com"
+          git add sponsorkit/
+          if [[ -n "$(git diff --staged --name-only)" ]]; then
+            git commit -m "docs: update sponsors"
+            git push
+          else
+            echo "No changes to commit"
+          fi
