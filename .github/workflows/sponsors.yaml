@@ -30,7 +30,7 @@ jobs:
       - name: Generate sponsors with SponsorKit
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
-        run: pnpm exec sponsorkit
+        run: pnpm exec sponsorkit --force
 
       - name: Update sponsors
         shell: bash
