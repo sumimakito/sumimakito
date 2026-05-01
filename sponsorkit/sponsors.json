@@ -15593,6 +15593,7 @@
       "login": "robertZaufall",
       "name": "Rob",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18199228?v=4",
+      "websiteUrl": "https://zaufall.de",
       "linkUrl": "https://github.com/robertZaufall",
       "type": "User",
       "avatarBuffer": {
@@ -17484,7 +17485,7 @@
       }
     },
     "isOneTime": true,
-    "monthlyDollars": 10,
+    "monthlyDollars": -1,
     "privacyLevel": "PUBLIC",
     "tierName": "$10 one time",
     "createdAt": "2026-03-28T02:31:16Z",
